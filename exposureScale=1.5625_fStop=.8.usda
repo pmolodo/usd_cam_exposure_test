@@ -1,0 +1,14 @@
+#usda 1.0
+(
+    defaultPrim = "camera"
+    subLayers = [
+        @./exposureScale=1.0000_defaults.usda@
+    ]
+)
+
+over "camera"
+{
+    # linearExposureScale = 1.5625
+    float exposure:fStop = .8
+}
+
